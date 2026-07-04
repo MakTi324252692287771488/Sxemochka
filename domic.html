@@ -1,0 +1,7 @@
+<h1> SXEMOCHKA APPLICATION</h1>
+<a href="/add">Add Game/a>
+{% for game in games %}
+<h2>{{game.name}}</h2>
+<p>{{game.dscription}}</p>
+<h3>{{game.price}}</h3>
+{%endfor%}
